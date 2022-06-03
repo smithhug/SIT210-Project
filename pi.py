@@ -11,7 +11,7 @@ while active:
         isopen = response.text[-5:-4]
         if (isopen == '1'):
             print("Draw is open")
-            os.system('fswebcam securitycam/%H%M%S.jpg')
+            os.system('fswebcam Desktop/securitycam/%H%M%S.jpg')
         else:
             if (isopen == '0'):
                 print("Draw is closed")
