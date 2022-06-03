@@ -11,4 +11,4 @@ pi.py is a program that needs to be run on a Raspberry Pi that has a stable inte
 In order to ping a mobile device a service must be setup with IFTTT in order to read when "isopen" is published at 1 by the Argon device. The next function from there is to send a notification to the IFTTT app on receiving this response.
 
 
-It is impoerant to note that this program was built with the intention of working with the systems they were develiped on. If you intend on using a different thingspeak service you may want to replace the API queries on both the major files. 
+It is important to note that this program was built with the intention of working with the systems they were developed on. If you intend on using a different thingspeak service you may want to replace the API queries on both the major files.
